@@ -1,0 +1,10 @@
+package adapter;
+
+public class Main {
+	
+	public static void main(String[] args){
+		AppOrder order = new PhoneAppOder();  
+		order.updateDate(123, "user");  
+	}
+    
+}
